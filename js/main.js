@@ -33,7 +33,7 @@ console.log("ticketPrice");
 
 let outputElement = document.querySelector('#ticket-desk');
 
-outputElement.innerHTML = `Il biglietto di ${userName.value} ha un costo di ${ticketPrice}`;
+outputElement.innerHTML = `Il biglietto di ${userName.value} ha un costo di ${ticketPrice.toFixed{2}}`;
 
 
 })

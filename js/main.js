@@ -17,11 +17,11 @@ console.log(userName.value);
 console.log(userAge.value);
 
 if(userAge.value == "minorenne"){
-    ticketPrice = ticketPrice * 0.2;
+    ticketPrice -= ticketPrice * 0.2;
     console.log("sconto del 20%");
 
 } else if(userAge.value == "over65"){
-    ticketPrice = ticketPrice * 0.4;
+    ticketPrice -= ticketPrice * 0.4;
     console.log("Sconto del 40%");
 
 }else {

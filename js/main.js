@@ -1,6 +1,6 @@
 //recuperiamo le informazioni agli utenti//
-let userName = document.getElementById('input-km')
-let userDistance = document.getElementById ('input-age')
+let userName = document.getElementById('input-id')
+let userDistance = document.getElementById ('input-km')
 let userAge = document.querySelector('#input-age')
 //prezzo per km//
 const pricePerKm = 0.21;
